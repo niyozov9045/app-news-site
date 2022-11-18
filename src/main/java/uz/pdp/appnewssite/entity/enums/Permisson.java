@@ -1,0 +1,24 @@
+package uz.pdp.appnewssite.entity.enums;
+
+public enum Permisson {
+
+    ADD_USER,
+    EDIT_USER,
+    DELETE_USER,
+    VIEW_USERS,
+
+    ADD_ROLE,
+    EDIT_ROLE,
+    DELETE_ROLE,
+    VIEW_ROLE,
+
+    ADD_POST,
+    EDIT_POST,
+    DELETE_POST,
+
+    ADD_COMMENT,
+    EDIT_COMMENT,
+    DELETE_MY_COMMENT, //  O'ZIMNI COMMENTIMNI O'CHIRISH
+    DELETE_COMMENT,     // TIZIMDAGI ODAM XOXLAGAN COMMENTNI O'CHIRISH MUMKUN
+
+}
